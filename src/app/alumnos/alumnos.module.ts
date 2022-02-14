@@ -6,6 +6,7 @@ import { ListadoAlumnosComponent } from './listado-alumnos/listado-alumnos.compo
 import { AlumnosComponent } from './alumnos.component';
 import { AlumnosRoutingModule } from './alumnos.routing';
 import { FormAlumnoComponent } from './form-alumno/form-alumno.component';
+import { IonicModule } from '@ionic/angular';
 
 
 
@@ -14,7 +15,7 @@ import { FormAlumnoComponent } from './form-alumno/form-alumno.component';
   AlumnosComponent, ListadoAlumnosComponent, FormAlumnoComponent
   ],
   imports: [
-    CommonModule, FormsModule, AlumnosRoutingModule
+    CommonModule, FormsModule, AlumnosRoutingModule, IonicModule
   ]
 })
 export class AlumnosModule { }
